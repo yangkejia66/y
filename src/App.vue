@@ -21,7 +21,6 @@ export default {
   components: {
     AppHeader,
     AppRightNav
-    
   }
 };
 </script>

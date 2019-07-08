@@ -4,7 +4,8 @@
     <div class="container-fluid">
       <div class="row">
         <AppRightNav></AppRightNav>
-        <AppHerosList></AppHerosList>
+        <!-- <AppHerosList></AppHerosList> -->
+        <router-view></router-view>
       </div>
     </div>
   </div>
@@ -13,14 +14,14 @@
 <script>
 import AppHeader from "./components/AppHeader";
 import AppRightNav from "./components/AppRightNav";
-import AppHerosList from "./components/AppHerosList";
+// import AppHerosList from "./view/heros/HeroList";
 
 export default {
   name: "app",
   components: {
     AppHeader,
-    AppRightNav,
-    AppHerosList
+    AppRightNav
+    
   }
 };
 </script>
